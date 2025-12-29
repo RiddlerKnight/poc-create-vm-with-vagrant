@@ -1,0 +1,10 @@
+#cloud-config
+users:
+  - default
+  - name: godspeed
+    ssh_pwauth: True
+    chpasswd: { expire: False }
+    gecos: godspeed
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    passwd: $6$a0pIgbTTgkEqJGUh$.K1ZmdA8fMHrCRYUN./VjEdsnG8yjqyRlzVvYVIdwWQFihLV.FvG0nAaMsrQqqGEwCXw6DB0rmavVenXRJU6Q/
