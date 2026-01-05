@@ -22,4 +22,4 @@ fix with installing adk
 
 ref: <https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install>
 
-after install, add `C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\amd64\Oscdimg` to path env
+after install, add `C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\amd64\Oscdimg` to path env and add env `VAGRANT_WSL_ENABLE_WINDOWS_ACCESS = 1`
