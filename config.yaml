@@ -8,3 +8,4 @@ users:
     sudo: ALL=(ALL) NOPASSWD:ALL
     groups: users, admin
     passwd: $6$a0pIgbTTgkEqJGUh$.K1ZmdA8fMHrCRYUN./VjEdsnG8yjqyRlzVvYVIdwWQFihLV.FvG0nAaMsrQqqGEwCXw6DB0rmavVenXRJU6Q/
+    lock-passwd: false
